@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Lena Bunge, Fabian Rudolf, Nils Valentiner-Branth"
+  },
+  "text": {
+    "more": "\u003cp\u003eSechs ausgewählte Lieder mit hoher Jaccard-Ähnlichkeit bilden nach unserem Modell drei voneinander getrennte Cluster.\u003c/br\u003e\u003c/br\u003e\n\nCluster 0 (grün):\u003c/br\u003e\nSong 1: Rammstein - Das Modell\u003c/br\u003e\nSong 2: Kraftwerk - Das Model\u003c/br\u003e\u003c/br\u003e\n\nCluster 1 (blau):\u003c/br\u003e\nSong 3: Markus - Ich will Spaß\u003c/br\u003e\nSong 4: Philipp - Ich will Spaß\u003c/br\u003e\u003c/br\u003e\n\nCluster 2 (rot):\u003c/br\u003e\nSong 5: Heinz Rudolf Kunze - Dein ist mein ganzes Herz\u003c/br\u003e\nSong 6: DJ R.O.C.K. - Dein ist mein ganzes Herz\n\u003c/p\u003e",
+    "intro": "\u003cp\u003eSechs ausgewählte Lieder mit hoher Jaccard-Ähnlichkeit bilden nach unserem Modell drei voneinander getrennte Cluster.\u003c/br\u003e\u003c/br\u003e\n\nCluster 0 (grün):\u003c/br\u003e\nSong 1: Rammstein - Das Modell\u003c/br\u003e\nSong 2: Kraftwerk - Das Model\u003c/br\u003e\u003c/br\u003e\n\nCluster 1 (blau):\u003c/br\u003e\nSong 3: Markus - Ich will Spaß\u003c/br\u003e\nSong 4: Philipp - Ich will Spaß\u003c/br\u003e\u003c/br\u003e\n\nCluster 2 (rot):\u003c/br\u003e\nSong 5: Heinz Rudolf Kunze - Dein ist mein ganzes Herz\u003c/br\u003e\nSong 6: DJ R.O.C.K. - Dein ist mein ganzes Herz\n\u003c/p\u003e",
+    "title": "Testdaten"
+  },
+  "legend": {
+    "edgeLabel": "gemeinsame Wortpaarwichtigkeit",
+    "colorLabel": "Cluster nach Modularitätsklasse",
+    "nodeLabel": "Wort"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

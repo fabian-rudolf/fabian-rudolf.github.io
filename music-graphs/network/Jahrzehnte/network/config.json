@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Lena Bunge, Fabian Rudolf, Nils Valentiner-Branth"
+  },
+  "text": {
+    "more": "Damit ein Wort einem Jahrzehnt zugeordnet wurde, muss es zu mindestens 50% in diesem Jahrzehnt vorgekommen sein. Die Farbskala geht von dunkelgrün über orange ins rote. Dabei sind Wörter aus den 1970er dunkelgrün und je jünger das Jahrzehnt destp weiter gehen die Farben ins rote. Graue Wörter sind nicht eindeutig zuordbar. Auffällig ist, dass 70% der Wörter den 2010er zugeordnet wurden.",
+    "intro": "Bitte Long Description lesen.",
+    "title": "Wortcluster von Liedtexten nach Jahrzehnten"
+  },
+  "legend": {
+    "edgeLabel": "gemeinsame Wortpaarhäufigkeit",
+    "colorLabel": "Cluster nach Modularität",
+    "nodeLabel": "Wort"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
